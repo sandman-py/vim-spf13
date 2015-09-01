@@ -1,0 +1,27 @@
+
+imap <C-j> ->
+imap <C-k> =>
+
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+
+set noswapfile
+
+inoremap <ESC> <ESC>
+
+let g:tagbar_type_php  = {
+    \ 'ctagstype' : 'php',
+    \ 'kinds'     : [
+        \ 'i:interfaces',
+        \ 'c:classes',
+        \ 'd:constant definitions',
+        \ 'f:functions',
+        \ 'j:javascript functions:1'
+    \ ]
+  \ }
+
+let g:tabular_loaded = 0
+
+set completeopt-=longest
+
+Bundle 'ervandew/supertab'
