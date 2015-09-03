@@ -1,14 +1,4 @@
 
-imap <C-j> ->
-imap <C-k> =>
-
-nnoremap <F2> :set invpaste paste?<CR>
-set pastetoggle=<F2>
-
-set noswapfile
-
-inoremap <ESC> <ESC>
-
 let g:tagbar_type_php  = {
     \ 'ctagstype' : 'php',
     \ 'kinds'     : [
@@ -19,9 +9,20 @@ let g:tagbar_type_php  = {
         \ 'j:javascript functions:1'
     \ ]
   \ }
-
 let g:tabular_loaded = 0
 
 set completeopt-=longest
+set foldlevel=99
+set pastetoggle=<F2>
+set noswapfile
 
 Bundle 'ervandew/supertab'
+
+imap <C-j> ->
+imap <C-k> =>
+inoremap <ESC> <ESC>
+nnoremap <F2> :set invpaste paste?<CR>
+nmap <F8> :TagbarToggle<CR>
+nmap <Tab> :b#<CR>
+nmap <leader>{ $a<space>{<CR>
+nmap <leader>; $a;<ESC>
