@@ -10,19 +10,22 @@ let g:tagbar_type_php  = {
     \ ]
   \ }
 let g:tabular_loaded = 0
+let g:DisableAutoPHPFolding = 1
 
 set completeopt-=longest
 set foldlevel=99
 set pastetoggle=<F2>
 set noswapfile
+set softtabstop=0
 
 Bundle 'ervandew/supertab'
 
-imap <C-j> ->
-imap <C-k> =>
+inoremap <C-j> ->
+inoremap <C-k> =>
 inoremap <ESC> <ESC>
 nnoremap <F2> :set invpaste paste?<CR>
-nmap <F8> :TagbarToggle<CR>
-nmap <Tab> :b#<CR>
+nnoremap <F8> :TagbarToggle<CR>
+nnoremap <Tab> :b#<CR>
 nmap <leader>{ $a<space>{<CR>
-nmap <leader>; $a;<ESC>
+nnoremap <leader>; $a;<ESC>
+nnoremap <leader>+ <C-a>

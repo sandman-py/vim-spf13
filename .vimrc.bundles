@@ -103,9 +103,9 @@
         if count(g:spf13_bundle_groups, 'general')
             " Bundle 'scrooloose/nerdtree'
             Bundle 'altercation/vim-colors-solarized'
-            Bundle 'spf13/vim-colors'
+            " Bundle 'spf13/vim-colors'
             Bundle 'tpope/vim-surround'
-            " Bundle 'tpope/vim-repeat'
+            Bundle 'tpope/vim-repeat'
             Bundle 'jiangmiao/auto-pairs'
             " Bundle 'ctrlpvim/ctrlp.vim'
             " Bundle 'tacahiroy/ctrlp-funky'
@@ -152,11 +152,11 @@
             " Pick one of the checksyntax, jslint, or syntastic
             Bundle 'scrooloose/syntastic'
             Bundle 'tpope/vim-fugitive'
-            Bundle 'mattn/webapi-vim'
-            Bundle 'mattn/gist-vim'
+            " Bundle 'mattn/webapi-vim'
+            " Bundle 'mattn/gist-vim'
             Bundle 'scrooloose/nerdcommenter'
-            Bundle 'tpope/vim-commentary'
-            Bundle 'godlygeek/tabular'
+            " Bundle 'tpope/vim-commentary'
+            " Bundle 'godlygeek/tabular'
             if executable('ctags')
                 Bundle 'majutsushi/tagbar'
             endif
