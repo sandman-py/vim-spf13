@@ -9,7 +9,7 @@ let g:tagbar_type_php  = {
         \ 'j:javascript functions:1'
     \ ]
   \ }
-let g:tabular_loaded = 0
+"let g:tabular_loaded = 0
 let g:DisableAutoPHPFolding = 1
 
 set completeopt-=longest
@@ -19,6 +19,7 @@ set noswapfile
 set softtabstop=0
 
 Bundle 'ervandew/supertab'
+Bundle 'fatih/vim-go'
 
 inoremap <C-j> ->
 inoremap <C-k> =>
