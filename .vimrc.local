@@ -17,6 +17,7 @@ set foldlevel=99
 set pastetoggle=<F2>
 set noswapfile
 set softtabstop=0
+set wrap
 
 Bundle 'ervandew/supertab'
 Bundle 'fatih/vim-go'
