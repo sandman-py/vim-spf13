@@ -9,4 +9,8 @@ let g:syntastic_mode_map = {
     \ "active_filetypes": [],
     \ "passive_filetypes": ["java"] }
 
-let g:airline_section_c = '%F'
+let g:airline_section_c = '%f'
+
+let g:go_fmt_command = "goimports"
+
+let g:spf13_no_autochdir = 1
