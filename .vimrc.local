@@ -27,7 +27,7 @@ inoremap <C-k> =>
 inoremap <ESC> <ESC>
 nnoremap <F2> :set invpaste paste?<CR>
 nnoremap <F8> :TagbarToggle<CR>
-nnoremap <Tab> :b#<CR>
+"nnoremap <Tab> :b#<CR>
 nmap <leader>{ $a<space>{<CR>
 nnoremap <leader>; $a;<ESC>
 nnoremap <leader>+ <C-a>
