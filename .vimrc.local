@@ -12,6 +12,8 @@ let g:tagbar_type_php  = {
 "let g:tabular_loaded = 0
 let g:DisableAutoPHPFolding = 1
 
+let g:NERDSpaceDelims = 1
+
 set completeopt-=longest
 set foldlevel=99
 set pastetoggle=<F2>
